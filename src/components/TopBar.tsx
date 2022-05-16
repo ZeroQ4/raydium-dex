@@ -29,55 +29,52 @@ const LogoWrapper = styled.div`
 `;
 
 const MENU = [
-   {
-    'title': 'Trading',
-    'link': '/',
+ 
+  {
+    'title': 'Home',
+    'link': 'https://1space.me/',
   },
   {
     'title': 'Swap',
-    'link': 'https://raydium.io/swap/',
+    'link': 'https://app.1space.me/',
   },
   {
     'title': 'Liquidity',
     'link': 'https://raydium.io/liquidity/add/',
   },
   {
-    'title': 'Pools',
-    'link': 'https://raydium.io/pools/',
-  },
-  {
-    'title': 'Farms',
-    'link': 'https://raydium.io/farms/',
+    'title': 'Trading',
+    'link': '/',
   },
   {
     'title': 'Staking',
-    'link': 'https://raydium.io/staking/',
+    'link': '#',
   },
   {
-    'title': 'AcceleRaytor',
-    'link': 'https://v1.raydium.io/acceleRaytor/',
+    'title': 'Farms',
+    'link': '#',
   },
   {
-    'title': 'DropZone',
+    'title': 'NFT',
+    'link': '#',
+  },
+  {
+    'title': 'Dashboard',
     'link': 'https://dropzone.raydium.io/',
   },
   {
-    'title': 'NFTs',
+    'title': 'Whitepaper',
     'child': [
       {
-        'title': 'Browse NFTs',
-        'link': 'https://nft.raydium.io/marketplace'
+        'title': 'Whitepaper',
+        'link': 'https://1space.me/whitepaper_onespace_1.0.pdf'
       },
       {
-        'title': 'Explore Collections',
-        'link': 'https://nft.raydium.io/collections'
+        'title': 'Docs',
+        'link': '#'
       },
     ]
-  },
-  {
-    'title': 'Migrate',
-    'link': 'https://raydium.io/migrate/',
-  },
+  }
   
 ]
 
