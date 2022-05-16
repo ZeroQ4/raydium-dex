@@ -133,7 +133,7 @@ export default function StandaloneBalancesDisplay() {
       <div
        style={{
          width: '100%',
-         borderBottom: '1px solid #1C274F',
+         borderBottom: '1px solid #2e3b49',
          fontSize: 14,
          paddingBottom: 12,
 
@@ -166,7 +166,7 @@ export default function StandaloneBalancesDisplay() {
                 fontSize: 12,
                 color: 'rgba(241, 241, 242, 1)',
                 textAlign: 'right',
-                borderBottom: '1px solid #1C274F',
+                borderBottom: '1px solid #2e3b49',
                 paddingBottom: 18,
               }}>
                 <Col span={6} style={{ color: 'rgba(241, 241, 242, 0.5)', textAlign: 'left' }}>

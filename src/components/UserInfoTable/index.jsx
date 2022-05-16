@@ -107,7 +107,7 @@ export default function Index({ smallScreen }) {
         </Row>
         <div
           style={{
-            border: '1px solid #1C274F',
+            border: '1px solid #2e3b49',
             minHeight: 50,
             borderBottom: '',
             padding: 16,
@@ -222,7 +222,7 @@ export default function Index({ smallScreen }) {
         </Row>
         <div
           style={{
-            border: '1px solid #1C274F',
+            border: '1px solid #2e3b49',
             height: 400,
             borderBottom: '',
             padding: 16,
