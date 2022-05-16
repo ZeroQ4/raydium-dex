@@ -153,7 +153,7 @@ export default function TopBar() {
     const { SubMenu } = Menu;
 
   const menuDiv = 
-  <Menu mode="horizontal" defaultSelectedKeys={['Trading']} style={{fontSize: '16px', display: 'flex', justifyContent: 'center',background: '#0F1429'}} selectable={false} >
+  <Menu mode="horizontal" defaultSelectedKeys={['Trading']} style={{fontSize: '16px', display: 'flex', justifyContent: 'center',background: '#020911'}} selectable={false} >
     {MENU.map(item => {
       if (item.child === undefined) {
         return <Menu.Item key={item.title}><a href={item.link} target={item.link.startsWith('/') ? '_self' : '_blank'} rel="noopener noreferrer">{item.title}</a></Menu.Item>
@@ -174,7 +174,7 @@ export default function TopBar() {
         onAddCustomEndpoint={onAddCustomEndpoint}
         onClose={() => setAddEndpointVisible(false)}
       />
-      <Wrapper style={{ background: '#0F1429'}}>
+      <Wrapper style={{ background: '#020911'}}>
         <Row wrap={false} style={{ paddingTop: 25, height: 70 }}>
           <Col flex="none">
             <LogoWrapper onClick={() => history.push(tradePageUrl)} style={{ paddingLeft: 40}}>
