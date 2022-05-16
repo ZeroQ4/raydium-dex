@@ -205,7 +205,7 @@ const makeDataFeed = () => {
           symbol: item.name,
           full_name: item.name,
           description: item.name,
-          exchange: 'Raydium',
+          exchange: 'Onespace',
           params: [],
           type: 'spot',
           ticker: item.name

@@ -40,7 +40,7 @@ const MENU = [
   },
   {
     'title': 'Liquidity',
-    'link': 'https://raydium.io/liquidity/add/',
+    'link': '#',
   },
   {
     'title': 'Trading',
@@ -60,7 +60,7 @@ const MENU = [
   },
   {
     'title': 'Dashboard',
-    'link': 'https://dropzone.raydium.io/',
+    'link': '#',
   },
   {
     'title': 'Whitepaper',
